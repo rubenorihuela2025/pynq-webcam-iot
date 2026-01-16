@@ -1,5 +1,5 @@
 # Configuración PYNQ
-Se ha configurado la placa PYNQ-Z2 mediante el guion del seminario 1
+Se ha configurado la placa PYNQ-Z2 mediante el guion del seminario 1.
 
 ## Placa
 - PYNQ-Z2
