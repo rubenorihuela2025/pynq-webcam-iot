@@ -13,8 +13,14 @@ Se detectan los rostros mediante OpenCV, que se trata de una biblioteca de códi
 
 ## Software
 - Sistema operativo: PYNQ Linux
-- Lenguajes de programación: Python 3
-- Librerías: OpenCV, NumPy, Adafruit IO Python Client
+- Lenguaje de programación: Python 3
+- Librerías: OpenCV, Adafruit IO Python Client
 - Plataforma IoT: Adafruit IO
 
-## Arquitectura
+## Arquitectura IoT
+El sistema se compone de una capa de adquicisión y procesamiento de datos mediante la PYNQ, una capa de comunicación a Internet y una capa de aplicación IoT con Adafruit IO.
+
+Este es su diagrama y flujo:
+<img width="1642" height="582" alt="ArquitecturaIoT" src="https://github.com/user-attachments/assets/06e9a0c1-d8b8-449b-b95a-2d13dcae11ab" />
+
+
