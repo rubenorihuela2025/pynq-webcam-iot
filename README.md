@@ -38,7 +38,7 @@ Este es su diagrama y flujo:
 4. Encender la placa.
 
 ### Acceso a Jupyter Notebook y conectividad a Internet
-1. Acceso por defecto a Jupyter Notebook mediante la IP 192.168.2.99 por la pasarela 192.168.2.1, pero se cambia esta subred desde la terminal de Jupyter por la 192.168.137.0 con la IP 192.168.137.10 para acceder a Jupyter Notebook y pasarela 192.168.137.1. Se configura y se reinicia la PYNQ.
+1. Acceso por defecto a Jupyter Notebook mediante la IP 192.168.2.99 por la pasarela 192.168.2.1, pero se cambia esta subred desde la terminal de Jupyter por la 192.168.137.0/24 con la IP 192.168.137.10 para acceder a Jupyter Notebook y pasarela 192.168.137.1. Se configura y se reinicia la PYNQ.
 2. Se le da acceso a Internet a la PYNQ mediante Internet Connection Sharing (ICS) en Windows 11 del PC, que proporciona salida a Internet vía WiFi. Se configura el DNS para que pueda resolver los nombres de dominio al descargar paquetes y comunicarse con el exterior.
 3. Se instala el cliente IoT de Adafruit IO mediante el comando `pip install adafruit-io` en la terminal de Jupyter.
 
