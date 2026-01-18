@@ -1,8 +1,14 @@
-# PYNQ-Webcam-IoT
+# Detector de intrusos (IoT en PYNQ)
 Sistema de detección de intrusos IoT con PYNQ-Z2 y Adafruit IO.
 
 En este proyecto se implementa un sistema IoT con la placa PYNQ-Z2, con el objetivo de aplicar un detector de intrusos mediante una webcam USB.
 Se detectan los rostros mediante OpenCV, que se trata de una biblioteca de código abierto con herramientas de visión por computadora. El sistema publica el estado en una plataforma IoT, en este caso Adafruit IO, donde el usuario puede visualizar y recibir alertas.
+
+## Objetivos
+- Implementar un sistema IoT en PYNQ
+- Realizar detección facial en tiempo real con la librería OpenCV
+- Aplicar procesamiento en el dispositivo (Edge Computing)
+- Enviar eventos a una plataforma IoT
 
 ## Hardware
 - PYNQ-Z2
@@ -23,5 +29,12 @@ El sistema se compone de una capa de adquicisión y procesamiento de datos media
 Este es su diagrama y flujo:
 
 <img width="1642" height="582" alt="ArquitecturaIoT" src="https://github.com/user-attachments/assets/06e9a0c1-d8b8-449b-b95a-2d13dcae11ab" />
+
+## Guía de instalación y configuración
+### Configuración de la PYNQ
+
+### Acceso a Jupyter Notebook y conectividad a Internet
+
+### Configuración de Adafruit IO
 
 
