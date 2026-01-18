@@ -9,6 +9,7 @@ Se detectan los rostros mediante OpenCV, que se trata de una biblioteca de códi
 - Fuente de alimentación
 - USB Webcam Logitech C505
 - Cable ethernet
+- Tarjeta microSD
 
 ## Software
 - Sistema operativo: PYNQ Linux
