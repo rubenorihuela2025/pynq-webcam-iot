@@ -32,7 +32,7 @@ Este es su diagrama y flujo:
 
 ## Guía de instalación y configuración
 ### Configuración de la PYNQ-Z2
-1. Alimentación de la placa desde fuente de alimentación externa (Jumper REG).
+1. Alimentación de la placa desde fuente de alimentación externa (jumper REG).
 2. Se arranca desde la tarjeta microSD (jumper SD) con la imagen del sistema operativo de la PYNQ descargada en la url https://drive.ugr.es/index.php/s/0c6nhf0vVRTGcTA (contraseña: sei2020).
 3. Insertar microSD, conectar Webcam vía USB y conectar la placa al PC (SO Windows 11) mediante cable Ethernet.
 4. Encender la placa.
@@ -54,7 +54,7 @@ Se describe como ejecutar el sistema de detección facial y como interactúa con
 2. Se abre una terminal.
 3. Se verifica la conexión a Internet mediante los comandos `ping 8.8.8.8` y `ping google.com`.
 4. Se navega al directorio con el comando `cd /home/xilinx/jupyter_notebooks/python`
-5. Se ejecuta el script Python mediante el comando `python3 deteccion_cara.py`([deteccion_cara.py](Python/deteccion_cara.py)).
+5. Se ejecuta el script Python mediante el comando `python3 deteccion_cara.py`([deteccion_cara.py](python/deteccion_cara.py)).
 
 Al ejecutar el programa se muestra un mensaje en la terminal de que la webcam está iniciada y cuando se detecta un rostro se muestra también un mensaje. A su vez, se genera un evento IoT que se envía con valor 1 al feed de Adafruit IO.
 Para detener el bucle de captura infinito desde la webcam se pulsa Ctrl + Z para pausarlo y se introduce el comando `kill %1` para detenerlo.
